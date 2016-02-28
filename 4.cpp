@@ -21,12 +21,6 @@ using namespace std;
 
         double m1 = a1[nn1-1],m2 = a2[nn2-1];
 
-        cout << "m1" << m1 << endl;
-        cout << "m2" << m2 << endl;
-        cout << nn1 << endl;
-        cout << nn2 << endl;
-        cout << k << endl;
-
         if(m1==m2)
             return m1;
         else if(m1<m2)
