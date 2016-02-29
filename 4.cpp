@@ -7,7 +7,7 @@ using namespace std;
             return findk(a2,n2,a1,n1,k);
         if(n2==0)
             return a1[k-1];
-        
+
         if(k==1)
             return min(a1[0],a2[0]);
 
@@ -15,17 +15,7 @@ using namespace std;
         int nn2 = min(k/2,n2);
         int nn1 = k-nn2;
 
-        if(nn1==0) {
-
-        }
-
         double m1 = a1[nn1-1],m2 = a2[nn2-1];
-
-        cout << "m1" << m1 << endl;
-        cout << "m2" << m2 << endl;
-        cout << nn1 << endl;
-        cout << nn2 << endl;
-        cout << k << endl;
 
         if(m1==m2)
             return m1;
